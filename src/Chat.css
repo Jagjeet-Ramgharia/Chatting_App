@@ -1,0 +1,80 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.65;
+
+}
+
+.chat_header{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chatHeader_info{
+    flex: 1;
+    padding-left: 20px;
+}
+.chatHeader_info > h3{
+    margin-bottom: 3px;
+    font-weight: 500;
+} 
+.chatHeader_info > p{
+    color: grey;
+}
+.chat_body{
+    flex: 1;
+    padding: 30px;
+    overflow-y: scroll;
+    /* background-image: url("https://wallpapercave.com/wp/KSZ2ubK.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed; */
+}
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.chat_timing{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.chat_name{
+    position: absolute;
+    top: -20px;
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+
+}
+.chat_receiver{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chat_footer > form{
+    flex: 1;
+    display: flex;
+}
+.chat_footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    outline-width: 0ch;
+    background-color: transparent;
+}
+.chat_footer > form > button{
+    display: none;
+}
